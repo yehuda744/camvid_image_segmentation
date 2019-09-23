@@ -1,22 +1,12 @@
-#aiofiles==0.4.0
-#aiohttp==3.5.4
-#asyncio==3.4.3
-#fastai==1.0.57
-#https://download.pytorch.org/whl/cpu/torch-1.1.0-cp37-cp37m-linux_x86_64.whl
-#https://download.pytorch.org/whl/cpu/torchvision-0.3.0-cp37-cp37m-linux_x86_64.whl
-#numpy==1.16.3
-#starlette==0.12.0
-#uvicorn==0.7.1
-#python-multipart==0.0.5
-
-numpy==1.16.4
-torchvision==0.4.0a0+6b959ee
-https://download.pytorch.org/whl/cpu/torch-1.0.1.post2-cp37-cp37m-linux_x86_64.whl
+aiofiles==0.4.0
+aiohttp==3.5.4
+asyncio==3.4.3
 fastai==1.0.57
-starlette
-uvicorn==0.3.32
-python-multipart
-aiofiles
-aiohttp
+https://download.pytorch.org/whl/cpu/torch-1.1.0-cp37-cp37m-linux_x86_64.whl
+https://download.pytorch.org/whl/cpu/torchvision-0.3.0-cp37-cp37m-linux_x86_64.whl
+numpy==1.16.5
+starlette==0.12.0
+uvicorn==0.7.1
+python-multipart==0.0.5
 
 
