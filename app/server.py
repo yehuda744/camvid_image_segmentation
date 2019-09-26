@@ -9,8 +9,9 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-#export_file_url = 'https://drive.google.com/uc?export=download&id=1-1YOPOzL45lMBnUnIGBOaHOoJ12M1X8s'
-export_file_url = 'https://www.googleapis.com/drive/v3/files/1-1YOPOzL45lMBnUnIGBOaHOoJ12M1X8s?alt=media&key=AIzaSyA5sekB32a3a2t1L7-pmly9cX3MQ_IjcJ4'
+#export_file_url = 'https://drive.google.com/open?id=1-gsKC_zC2dghR3kej0ksLfHUJMrrBXOV'
+#AIzaSyDQlrdLwQwrGPRfwKDRS2WGjesmXMqLfV8
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1-gsKC_zC2dghR3kej0ksLfHUJMrrBXOV?alt=media&key=AIzaSyDQlrdLwQwrGPRfwKDRS2WGjesmXMqLfV8'
 export_file_name = 'export.pkl'
 
 classes = ['Animal', 'Archway', 'Bicyclist', 'Bridge', 'Building', 'Car', 'CartLuggagePram', 'Child', 'Column_Pole', 'Fence', 'LaneMkgsDriv', 'LaneMkgsNonDriv', 'Misc_Text', 'MotorcycleScooter', 'OtherMoving', 'ParkingBlock', 'Pedestrian', 'Road', 'RoadShoulder', 'Sidewalk', 'SignSymbol', 'Sky', 'SUVPickupTruck', 'TrafficCone', 'TrafficLight', 'Train', 'Tree', 'Truck_Bus', 'Tunnel', 'VegetationMisc', 'Void', 'Wall']
